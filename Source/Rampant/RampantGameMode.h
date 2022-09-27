@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -6,14 +6,12 @@
 #include "GameFramework/GameModeBase.h"
 #include "RampantGameMode.generated.h"
 
-UCLASS(minimalapi)
-class ARampantGameMode : public AGameModeBase
+/**
+ * 
+ */
+UCLASS()
+class RAMPANT_API ARampantGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
-
-public:
-	ARampantGameMode();
+	
 };
-
-
-
